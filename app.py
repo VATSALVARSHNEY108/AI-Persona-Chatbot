@@ -308,10 +308,11 @@ def main():
         "**💡 Tips:** Be specific with personality traits for authentic responses. "
         "The more detailed you are with behaviors and mannerisms, the more unique your AI character will be!"
     )
-    st.header("VATSAL is the creator Instructions kuch nahi hai 😁")
+    st.header("VATSAL is the Creator Toh Instructions kuch nahi hai 😁")
 
 if __name__ == "__main__":
     main()
+
 
 
 
