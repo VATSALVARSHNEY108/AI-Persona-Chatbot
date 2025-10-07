@@ -138,7 +138,7 @@ def main():
     # Use st.status to hide the loading message when initializing the cached resource
     with st.status("Initializing AI...", expanded=False) as status:
         client = get_gemini_client()
-        status.update(label="Bhai/Behn Vatsal ne banaya hai toh instructions niche jaakr dekhlo && english galat likhoge tabhi saajh jayge NLP bahut ache se apply kari hai ", state="complete", expanded=False)
+        status.update(label=" ‼️‼️Bhai/Behn Vatsal ne banaya hai toh instructions niche jaakr dekhlo && english galat likhoge tabhi saajh jayge NLP bahut ache se apply kari hai ", state="complete", expanded=False)
 
     # This is often sufficient to hide the loading message on the first run,
     # but the next method is more direct if you can't see the call stack.
@@ -312,6 +312,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
